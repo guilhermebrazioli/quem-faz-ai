@@ -149,7 +149,7 @@ A prova de conceito executa inferência local com recuperação de fontes, saíd
 
 As fontes públicas estão ligadas na seção 7. O [README](../README.md) contém instalação (macOS e Windows), API, testes, interface de revisão e comandos de reprodução. Evidências da avaliação final: [respostas](../avaliacao/resultados/final/geracao.jsonl), [recuperação](../avaliacao/resultados/final/recuperacao.csv), [placar](../avaliacao/resultados/final/placar.csv), [revisão humana](../avaliacao/resultados/final/revisao_humana.csv) e [placar da revisão](../avaliacao/resultados/final/placar_revisao_humana.json). Histórico: [diagnóstico v6](../avaliacao/resultados/diagnostico_v6/diagnostico.md), [auditoria v7](relatorio_auditoria_v7.md), [auditoria de segurança](AUDITORIA_SEGURANCA.md) e [notebooks](../notebooks/).
 
-Repositório GitHub: [inserir URL]. Vídeo demonstrativo: [inserir URL].
+Repositório GitHub: [https://github.com/guilhermebrazioli/quem-faz-ai](https://github.com/guilhermebrazioli/quem-faz-ai). Vídeo demonstrativo: [inserir URL].
 
 ## Adendo: integração com o MVP publicado
 
