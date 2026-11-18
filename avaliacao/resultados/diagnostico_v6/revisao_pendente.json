@@ -1,0 +1,65 @@
+{
+  "A": {
+    "total": 14,
+    "correcao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "fundamentacao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "alucinacao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    }
+  },
+  "B": {
+    "total": 14,
+    "correcao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "fundamentacao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "alucinacao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    }
+  },
+  "C": {
+    "total": 14,
+    "correcao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "fundamentacao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "alucinacao_humana": {
+      "avaliados": 0,
+      "pendentes": 14,
+      "contagens": {},
+      "resultado": "pendente"
+    }
+  }
+}

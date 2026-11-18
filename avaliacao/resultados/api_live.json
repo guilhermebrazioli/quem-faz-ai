@@ -1,0 +1,37 @@
+{
+  "http_status": 200,
+  "resposta": {
+    "categoria_sugerida": "não identificada",
+    "descricao_aprimorada": "O orçamento precisa conter condições de pagamento e datas?",
+    "orientacoes": [
+      {
+        "texto": "O orçamento prévio de serviços deve discriminar mão de obra, materiais, equipamentos, condições de pagamento e datas de início e término.",
+        "fontes": [
+          "CDC-01"
+        ]
+      }
+    ],
+    "perguntas_sugeridas": [],
+    "status": "fundamentado",
+    "fontes": [
+      {
+        "id": "CDC-01",
+        "titulo": "Código de Defesa do Consumidor, art. 40",
+        "instituicao": "Secretaria Nacional do Consumidor",
+        "url": "https://www.consumidor.gov.br/pages/conteudo/publico/102"
+      }
+    ],
+    "rastreio": [
+      "consulta_base:CDC-01=0.4332,IPS-03=0.1696,PROCON-02=0.1658",
+      "limiar:0.1500;aceitos:3",
+      "inspeciona_contexto:ok",
+      "seleciona_trechos:ok",
+      "valida_ids:ok:CDC-01",
+      "verifica_suficiencia:ok:true",
+      "agente_verifica_integridade_e_instrucao_suspeita:ok",
+      "verifica_suporte_textual:exato",
+      "valida_json"
+    ],
+    "observacao": "Os trechos apresentados podem responder apenas parte do pedido; confira o que falta antes de contratar."
+  }
+}

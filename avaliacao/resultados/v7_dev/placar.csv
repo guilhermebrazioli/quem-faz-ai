@@ -1,0 +1,4 @@
+﻿configuracao,total,corretas_humano,incorretas_humano,recusas,recusas_rotulo_nao_consta,recusas_rotulo_consta,json_valido,respostas_fontes_ids_validos,afirmacoes_texto_exato,fundamentacao_semantica_humano,alucinacoes_humano,falhas,latencia_media_s
+A,14,pendente,pendente,2,0,2,14,na,na,pendente,pendente,0,1.535
+B,14,pendente,pendente,10,6,4,14,4,4,pendente,pendente,0,0.479
+C,14,pendente,pendente,10,6,4,14,4,4,pendente,pendente,0,0.45

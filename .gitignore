@@ -1,0 +1,11 @@
+﻿.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+avaliacao/resultados/cega_v2/mapa_segunda_revisao.json
+*.tmp
+.venv/
+.env
+.DS_Store
+.ipynb_checkpoints/

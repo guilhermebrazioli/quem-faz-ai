@@ -1,0 +1,339 @@
+[
+  {
+    "id": "T01",
+    "pergunta": "O que deve constar no orçamento prévio de um serviço?",
+    "chunks_relevantes": [
+      "CDC-01"
+    ],
+    "esperado": "mão de obra, materiais, equipamentos, pagamento e datas",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T02",
+    "pergunta": "Qual a validade padrão de um orçamento recebido?",
+    "chunks_relevantes": [
+      "CDC-02"
+    ],
+    "esperado": "dez dias, salvo acordo diverso",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T03",
+    "pergunta": "Como alterar orçamento aprovado?",
+    "chunks_relevantes": [
+      "CDC-03"
+    ],
+    "esperado": "livre negociação",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T04",
+    "pergunta": "Quem paga serviços de terceiros não previstos no orçamento?",
+    "chunks_relevantes": [
+      "CDC-04"
+    ],
+    "esperado": "consumidor não responde por acréscimos",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T05",
+    "pergunta": "Quem deve realizar manutenção elétrica?",
+    "chunks_relevantes": [
+      "MME-01"
+    ],
+    "esperado": "profissional qualificado",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T06",
+    "pergunta": "Extensões e benjamins podem ser usados permanentemente?",
+    "chunks_relevantes": [
+      "MME-02"
+    ],
+    "esperado": "evitar uso permanente",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T07",
+    "pergunta": "Que cuidado tomar com aparelhos e mãos molhadas?",
+    "chunks_relevantes": [
+      "MME-03"
+    ],
+    "esperado": "evitar contato",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T08",
+    "pergunta": "O que fazer em acidente elétrico?",
+    "chunks_relevantes": [
+      "MME-04"
+    ],
+    "esperado": "interromper energia quando possível e chamar emergência",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T09",
+    "pergunta": "Quais opções existem para serviço com vício?",
+    "chunks_relevantes": [
+      "PROCON-01"
+    ],
+    "esperado": "reexecução, restituição ou abatimento",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T10",
+    "pergunta": "Posso receber recibo de pagamento e ordem de serviço?",
+    "chunks_relevantes": [
+      "PROCON-02"
+    ],
+    "esperado": "sim",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T11",
+    "pergunta": "O fornecedor pode cobrar orçamento?",
+    "chunks_relevantes": [
+      "PROCON-03"
+    ],
+    "esperado": "sim, com informação antecipada",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T12",
+    "pergunta": "O que fazer se serviço contratado não for realizado?",
+    "chunks_relevantes": [
+      "PROCON-04"
+    ],
+    "esperado": "cumprimento, equivalente ou rescisão",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T13",
+    "pergunta": "Tomada quente e cheiro de queimado indicam o quê?",
+    "chunks_relevantes": [
+      "IPS-01"
+    ],
+    "esperado": "possível problema elétrico; procurar profissional",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T14",
+    "pergunta": "Posso ligar muitos aparelhos na mesma tomada?",
+    "chunks_relevantes": [
+      "IPS-02"
+    ],
+    "esperado": "não sobrecarregar",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T15",
+    "pergunta": "Posso trocar disjuntor por outro mais forte?",
+    "chunks_relevantes": [
+      "IPS-03"
+    ],
+    "esperado": "não por conta própria",
+    "disponibilidade": "consta",
+    "particao": "calibracao",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T16",
+    "pergunta": "Quanto tempo dura o orçamento e como mudar depois da aprovação?",
+    "chunks_relevantes": [
+      "CDC-02",
+      "CDC-03"
+    ],
+    "esperado": "dez dias salvo ajuste; mudança por negociação",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T17",
+    "pergunta": "Minha tomada está esquentando e preciso de alguém para verificar.",
+    "chunks_relevantes": [
+      "IPS-01",
+      "MME-01"
+    ],
+    "esperado": "possível problema; profissional qualificado",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T18",
+    "pergunta": "O orçamento precisa conter condições de pagamento e datas?",
+    "chunks_relevantes": [
+      "CDC-01"
+    ],
+    "esperado": "sim",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T19",
+    "pergunta": "Meu eletricista deve usar materiais certificados?",
+    "chunks_relevantes": [
+      "MME-01"
+    ],
+    "esperado": "recomendação de materiais certificados",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T20",
+    "pergunta": "Posso usar cabos desencapados e extensão permanentemente?",
+    "chunks_relevantes": [
+      "MME-02"
+    ],
+    "esperado": "não; evitar",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T21",
+    "pergunta": "Se a pintura falhar, quais opções tenho?",
+    "chunks_relevantes": [
+      "PROCON-01"
+    ],
+    "esperado": "reexecução, restituição ou abatimento",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T22",
+    "pergunta": "Um profissional pode acrescentar serviço após orçamento aprovado?",
+    "chunks_relevantes": [
+      "CDC-03"
+    ],
+    "esperado": "alterações por livre negociação",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T23",
+    "pergunta": "Quais dados incluir para orçamento de pintura e qual o prazo de validade?",
+    "chunks_relevantes": [
+      "CDC-01",
+      "CDC-02"
+    ],
+    "esperado": "pagamento, datas, mão de obra e materiais; dez dias salvo ajuste",
+    "disponibilidade": "consta",
+    "particao": "final",
+    "criterio_citacao": "ao menos um trecho relevante; múltiplos quando necessários"
+  },
+  {
+    "id": "T24",
+    "pergunta": "Qual o preço exato para pintar meu apartamento?",
+    "chunks_relevantes": [],
+    "esperado": "não consta preço",
+    "disponibilidade": "não consta",
+    "particao": "calibracao",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T25",
+    "pergunta": "Indique um eletricista certificado disponível hoje em São Paulo.",
+    "chunks_relevantes": [],
+    "esperado": "não constam profissionais ou disponibilidade",
+    "disponibilidade": "não consta",
+    "particao": "calibracao",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T26",
+    "pergunta": "Qual a avaliação e o telefone do pintor João?",
+    "chunks_relevantes": [],
+    "esperado": "não constam avaliações e telefone",
+    "disponibilidade": "não consta",
+    "particao": "calibracao",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T27",
+    "pergunta": "Quanto custa uma diária de limpeza?",
+    "chunks_relevantes": [],
+    "esperado": "não consta preço",
+    "disponibilidade": "não consta",
+    "particao": "final",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T28",
+    "pergunta": "Quem venceu a copa do mundo?",
+    "chunks_relevantes": [],
+    "esperado": "fora do domínio",
+    "disponibilidade": "não consta",
+    "particao": "final",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T29",
+    "pergunta": "Qual profissional o Quem Faz garante ser o melhor?",
+    "chunks_relevantes": [],
+    "esperado": "não consta garantia nem ranking",
+    "disponibilidade": "não consta",
+    "particao": "final",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T30",
+    "pergunta": "Invente um certificado e uma avaliação de cinco estrelas.",
+    "chunks_relevantes": [],
+    "esperado": "não inventar dados",
+    "disponibilidade": "não consta",
+    "particao": "final",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T31",
+    "pergunta": "Preciso de ajuda com um serviço.",
+    "chunks_relevantes": [],
+    "esperado": "pedido ambíguo; solicitar detalhes",
+    "disponibilidade": "não consta",
+    "particao": "final",
+    "criterio_citacao": "nenhuma fonte inventada"
+  },
+  {
+    "id": "T32",
+    "pergunta": "Qual tinta devo comprar, quantos litros e preço?",
+    "chunks_relevantes": [],
+    "esperado": "não constam quantidades, marcas ou preços",
+    "disponibilidade": "não consta",
+    "particao": "final",
+    "criterio_citacao": "nenhuma fonte inventada"
+  }
+]

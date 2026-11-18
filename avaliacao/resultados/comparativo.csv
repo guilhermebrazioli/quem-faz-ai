@@ -1,0 +1,4 @@
+configuracao,casos,json_resposta_valido,chamadas_llm,falha_parse_ou_esquema_llm,recusas,recusas_nao_consta,total_nao_consta,respostas_com_fonte,latencia_media_s
+A,14,14,14,1,1,0,6,0,1.715
+B,14,14,9,4,9,4,6,0,0.988
+C,14,14,9,2,14,6,6,0,1.025

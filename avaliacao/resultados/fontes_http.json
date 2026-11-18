@@ -1,0 +1,26 @@
+[
+  {
+    "documento": "CDC",
+    "url": "https://www.consumidor.gov.br/pages/conteudo/publico/102",
+    "status": 200,
+    "url_final": "https://www.consumidor.gov.br/pages/conteudo/publico/102"
+  },
+  {
+    "documento": "MME",
+    "url": "https://www.gov.br/mme/pt-br/assuntos/secretarias/secretaria-nacional-energia-eletrica/mais-noticias/saiba-como-evitar-acidentes-eletricos-dentro-de-casa/",
+    "status": 200,
+    "url_final": "https://www.gov.br/mme/pt-br/assuntos/secretarias/secretaria-nacional-energia-eletrica/mais-noticias/saiba-como-evitar-acidentes-eletricos-dentro-de-casa/"
+  },
+  {
+    "documento": "PROCON",
+    "url": "https://www.procon.sp.gov.br/codigo/",
+    "status": 200,
+    "url_final": "https://www.procon.sp.gov.br/codigo/"
+  },
+  {
+    "documento": "IPS",
+    "url": "https://www.ips.es.gov.br/detalhe-da-materia/info/37052/choques-eletricos-e-incendios-cuidados-no-trabalho-e-em-casa-podem-evitar-acidentes-graves/",
+    "status": 200,
+    "url_final": "https://www.ips.es.gov.br/detalhe-da-materia/info/37052/choques-eletricos-e-incendios-cuidados-no-trabalho-e-em-casa-podem-evitar-acidentes-graves/"
+  }
+]

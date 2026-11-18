@@ -1,0 +1,215 @@
+{
+  "A": {
+    "total": 20,
+    "correcao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "parcial": 4,
+        "incorreta": 13,
+        "correta": 3
+      },
+      "taxas_sobre_registrados": {
+        "parcial": 0.2,
+        "incorreta": 0.65,
+        "correta": 0.15
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "parcial": 0.2,
+        "incorreta": 0.65,
+        "correta": 0.15
+      }
+    },
+    "fundamentacao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "nao_sustentada": 20
+      },
+      "taxas_sobre_registrados": {
+        "nao_sustentada": 1.0
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "nao_sustentada": 1.0
+      }
+    },
+    "alucinacao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "sim": 20
+      },
+      "taxas_sobre_registrados": {
+        "sim": 1.0
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "sim": 1.0
+      }
+    },
+    "adequacao_recusa": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "nao_aplicavel": 20
+      },
+      "taxas_sobre_registrados": {
+        "nao_aplicavel": 1.0
+      },
+      "casos_avaliaveis": 0,
+      "taxas_sobre_avaliaveis": {}
+    }
+  },
+  "B": {
+    "total": 20,
+    "correcao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "correta": 14,
+        "incorreta": 5,
+        "parcial": 1
+      },
+      "taxas_sobre_registrados": {
+        "correta": 0.7,
+        "incorreta": 0.25,
+        "parcial": 0.05
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "correta": 0.7,
+        "incorreta": 0.25,
+        "parcial": 0.05
+      }
+    },
+    "fundamentacao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "parcial": 5,
+        "sustentada": 5,
+        "nao_aplicavel": 9,
+        "nao_sustentada": 1
+      },
+      "taxas_sobre_registrados": {
+        "parcial": 0.25,
+        "sustentada": 0.25,
+        "nao_aplicavel": 0.45,
+        "nao_sustentada": 0.05
+      },
+      "casos_avaliaveis": 11,
+      "taxas_sobre_avaliaveis": {
+        "parcial": 0.4545,
+        "sustentada": 0.4545,
+        "nao_sustentada": 0.0909
+      }
+    },
+    "alucinacao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "nao": 18,
+        "sim": 2
+      },
+      "taxas_sobre_registrados": {
+        "nao": 0.9,
+        "sim": 0.1
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "nao": 0.9,
+        "sim": 0.1
+      }
+    },
+    "adequacao_recusa": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "nao_aplicavel": 11,
+        "indevida": 4,
+        "adequada": 5
+      },
+      "taxas_sobre_registrados": {
+        "nao_aplicavel": 0.55,
+        "indevida": 0.2,
+        "adequada": 0.25
+      },
+      "casos_avaliaveis": 9,
+      "taxas_sobre_avaliaveis": {
+        "indevida": 0.4444,
+        "adequada": 0.5556
+      }
+    }
+  },
+  "C": {
+    "total": 20,
+    "correcao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "correta": 13,
+        "incorreta": 7
+      },
+      "taxas_sobre_registrados": {
+        "correta": 0.65,
+        "incorreta": 0.35
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "correta": 0.65,
+        "incorreta": 0.35
+      }
+    },
+    "fundamentacao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "sustentada": 7,
+        "nao_aplicavel": 13
+      },
+      "taxas_sobre_registrados": {
+        "sustentada": 0.35,
+        "nao_aplicavel": 0.65
+      },
+      "casos_avaliaveis": 7,
+      "taxas_sobre_avaliaveis": {
+        "sustentada": 1.0
+      }
+    },
+    "alucinacao_humana": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "nao": 20
+      },
+      "taxas_sobre_registrados": {
+        "nao": 1.0
+      },
+      "casos_avaliaveis": 20,
+      "taxas_sobre_avaliaveis": {
+        "nao": 1.0
+      }
+    },
+    "adequacao_recusa": {
+      "avaliados": 20,
+      "pendentes": 0,
+      "contagens": {
+        "nao_aplicavel": 7,
+        "indevida": 7,
+        "adequada": 6
+      },
+      "taxas_sobre_registrados": {
+        "nao_aplicavel": 0.35,
+        "indevida": 0.35,
+        "adequada": 0.3
+      },
+      "casos_avaliaveis": 13,
+      "taxas_sobre_avaliaveis": {
+        "indevida": 0.5385,
+        "adequada": 0.4615
+      }
+    }
+  }
+}

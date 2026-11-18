@@ -1,0 +1,64 @@
+{
+  "A": {
+    "total": 20,
+    "validos": 14,
+    "falhas": 6,
+    "correcao": {
+      "incerta": 7,
+      "correta": 3,
+      "incorreta": 4
+    },
+    "sustentacao": {
+      "nao_sustentada": 14
+    },
+    "alucinacao": {
+      "sim": 4,
+      "nao": 10
+    },
+    "adequacao_recusa": {
+      "nao_aplicavel": 14
+    }
+  },
+  "B": {
+    "total": 20,
+    "validos": 17,
+    "falhas": 3,
+    "correcao": {
+      "incerta": 15,
+      "correta": 2
+    },
+    "sustentacao": {
+      "nao_sustentada": 15,
+      "sustentada": 2
+    },
+    "alucinacao": {
+      "sim": 10,
+      "nao": 7
+    },
+    "adequacao_recusa": {
+      "nao_aplicavel": 16,
+      "adequada": 1
+    }
+  },
+  "C": {
+    "total": 20,
+    "validos": 16,
+    "falhas": 4,
+    "correcao": {
+      "incerta": 14,
+      "correta": 2
+    },
+    "sustentacao": {
+      "nao_sustentada": 14,
+      "nao_aplicavel": 1,
+      "sustentada": 1
+    },
+    "alucinacao": {
+      "nao": 9,
+      "sim": 7
+    },
+    "adequacao_recusa": {
+      "nao_aplicavel": 16
+    }
+  }
+}

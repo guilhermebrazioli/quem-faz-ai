@@ -1,0 +1,83 @@
+{
+  "A": {
+    "total": 20,
+    "correcao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "fundamentacao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "alucinacao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "adequacao_recusa": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    }
+  },
+  "B": {
+    "total": 20,
+    "correcao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "fundamentacao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "alucinacao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "adequacao_recusa": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    }
+  },
+  "C": {
+    "total": 20,
+    "correcao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "fundamentacao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "alucinacao_humana": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    },
+    "adequacao_recusa": {
+      "avaliados": 0,
+      "pendentes": 20,
+      "contagens": {},
+      "resultado": "pendente"
+    }
+  }
+}

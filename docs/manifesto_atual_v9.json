@@ -1,0 +1,75 @@
+{
+  "modelo": {
+    "name": "qwen2.5:1.5b",
+    "model": "qwen2.5:1.5b",
+    "modified_at": "2026-11-11T15:19:03.9572082-03:00",
+    "size": 986061892,
+    "digest": "65ec06548149b04c096a120e4a6da9d4017ea809c91734ea5631e89f96ddc57b",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "1.5B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 32768,
+      "embedding_length": 1536,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "ollama_versao": "ollama version is 0.40.16",
+  "python": "3.12.10",
+  "sistema": "Windows-11-10.0.26200-SP0",
+  "processador": "AMD64 Family 25 Model 33 Stepping 2, AuthenticAMD",
+  "parametros": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict_baseline": 450,
+    "num_predict_rag_agente": 120,
+    "limiar": 0.15
+  },
+  "observacao_datas": "Datas de modificação dos arquivos no relógio local do sistema; servem como vestígio e podem ser alteradas ao copiar arquivos, não provam o horário de inferência.",
+  "execucoes": {
+    "inicial": {
+      "arquivo": "avaliacao/resultados/geracao.jsonl",
+      "modificado_local": "2026-11-17T04:19:50",
+      "sha256": "f784341eda335c832c4eab0359b9c9b2895b794ff1a593984b7105c698c6b0ee"
+    },
+    "v6": {
+      "arquivo": "avaliacao/resultados/v6/execucao_final/geracao.jsonl",
+      "modificado_local": "2026-11-17T04:32:46",
+      "sha256": "030ba08896bd1a59a3d348a5afd1bf5a46af85c5f41821d63f9264539638f98c"
+    },
+    "primeira_nova": {
+      "arquivo": "avaliacao/resultados/cega_v1/geracao.jsonl",
+      "modificado_local": "2026-11-17T04:43:24",
+      "sha256": "3e091f9797e5725ccb1cf1c13c076c037c9d6b5e81fe57e8ce05a8ab3518e392"
+    },
+    "reexecucao_corrigida": {
+      "arquivo": "avaliacao/resultados/cega_v2/geracao.jsonl",
+      "modificado_local": "2026-11-17T04:47:25",
+      "sha256": "6b3574b88172ca0444d8cafec46f2489fd9962b17c1e93011133ca9c08a52300"
+    }
+  },
+  "manifesto": "avaliacao/congelamento_cega_v2.json",
+  "dependencias": "requirements.txt e docs/dependencias_ambiente.txt",
+  "versao_atual": "v9 - filtro preventivo de padrões suspeitos em B e C; não é um release Git",
+  "manifesto_atual": "avaliacao/congelamento_adicional_v2.json",
+  "snapshot_anterior": "avaliacao/snapshots/v8/agente.py",
+  "experimentos_adicionais": {
+    "antes": {
+      "arquivo": "avaliacao/resultados/adicional_v1/geracao.jsonl",
+      "sha256": "897765c618234d4f03681deb2a560b6fce92d796a661514c1839266c30b50287"
+    },
+    "depois_exploratorio": {
+      "arquivo": "avaliacao/resultados/adicional_v2/geracao.jsonl",
+      "sha256": "77193a2c516d47bb3dfc0c4876c0ca2649421622651ff9f799decbf4f1936951"
+    }
+  }
+}

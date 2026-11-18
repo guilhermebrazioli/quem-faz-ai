@@ -1,0 +1,7 @@
+{
+  "src/core.py": "b24d36757e078ae352edc336c711e99ac8e4a2babe0a651241edc0fff9e0dc07",
+  "src/agente.py": "07f2c0f3d40f56058a747c7a77a560c5449d4f645efc85f65230fd08aa706866",
+  "src/retrieval.py": "a896828399eda3ff0944f92ca25784766b9114c91db7497f0e0dd9aaebd77593",
+  "base/trechos.json": "d704a0d7e0d13e7ed1d20fe314b98a9221abc4a568d2b4f9ad9f57c54a4c9153",
+  "avaliacao/casos_internos_adicionais.json": "a8e51caaccd182e9d2f9ac039311e99c738acb324cf5b26100f4949c506e3439"
+}

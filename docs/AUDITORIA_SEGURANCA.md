@@ -1,0 +1,11 @@
+﻿# Auditoria de segurança e limites
+
+Na auditoria local de 17/11/2026, o script `scripts/verificar_entrega.py --testes` procurou padrões específicos de credenciais em arquivos de texto, verificou que `.env` não está presente e checou contrato, fontes locais e testes. O ambiente virtual, caches, `.env` e mapa local de revisão estão no `.gitignore`. A busca por padrões não identifica todas as credenciais possíveis nem substitui revisão do conteúdo antes de publicar.
+
+`python -m pip check` não apontou inconsistências; `python -m pip_audit -r requirements.txt --format json --output ...` consultou a base do serviço usado pelo pip-audit e não reportou vulnerabilidades conhecidas nas 69 dependências resolvidas naquele momento. Resultado: `avaliacao/resultados/auditoria_dependencias.json`. Isso não garante que dependências ou código não tenham falhas, e resultados dependem da data e da base consultada. O utilitário pip-audit foi instalado apenas para auditoria e não é exigência da aplicação.
+
+A API e a interface de revisão não possuem autenticação, limitação de taxa ou implantação segura para internet. O uso deve ser local. Os limites de entrada e os erros HTTP são cobertos por testes; o tratamento de timeout foi verificado por simulação. A inferência e o consumidor foram executados realmente em localhost com Ollama.
+
+A auditoria de código constatou que o RAG simples não verificava padrões suspeitos antes de enviar contexto. Foi acrescentada a mesma barreira limitada já usada pelo agente, com teste de regressão para B. Isso é uma detecção heurística, não garantia de resistência a injeção; a configuração A continua sem contexto ou filtragem de domínio. O código anterior está em `avaliacao/snapshots/v8/agente.py`; `adicional_v1` registra a execução antes da alteração e `adicional_v2` a reexecução exploratória nos mesmos casos. Não houve revisão adversarial independente nem teste de penetração.
+
+Os casos são sintéticos. Nomes e RMs dos integrantes são dados pessoais e constam do relatório conforme fornecidos para identificação acadêmica: o grupo deve deliberar sobre sua publicação. Endereços eletrônicos informados não foram incluídos. A aplicação não foi auditada para afirmar conformidade integral com a LGPD.

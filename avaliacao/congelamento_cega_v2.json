@@ -1,0 +1,7 @@
+{
+  "src/core.py": "b24d36757e078ae352edc336c711e99ac8e4a2babe0a651241edc0fff9e0dc07",
+  "src/agente.py": "ccab65cfc7fc935fb58072e6975e626b5c3e929b2907a5f60647e4179a349b26",
+  "src/retrieval.py": "a896828399eda3ff0944f92ca25784766b9114c91db7497f0e0dd9aaebd77593",
+  "base/trechos.json": "d704a0d7e0d13e7ed1d20fe314b98a9221abc4a568d2b4f9ad9f57c54a4c9153",
+  "avaliacao/casos_cegos_v1.json": "cc1cc2d9b85b2a595a7869b68fe913ac1b1ee1a4d40d0c63e6518259b658722c"
+}
