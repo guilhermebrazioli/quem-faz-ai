@@ -22,7 +22,7 @@ O assistente local consulta orientações de contratação e segurança, sem cer
 - Avaliação final: [manifesto de congelamento](avaliacao/congelamento_final.json), [respostas](avaliacao/resultados/final/geracao.jsonl), [recuperação](avaliacao/resultados/final/recuperacao.csv), [placar automático](avaliacao/resultados/final/placar.csv), [revisão humana](avaliacao/resultados/final/revisao_humana.csv) e [placar da revisão humana](avaliacao/resultados/final/placar_revisao_humana.json).
 - [Notebooks executados](notebooks/) e [erros históricos](avaliacao/comparacao_erros_v8.md).
 
-Repositório GitHub: [https://github.com/guilhermebrazioli/quem-faz-ai](https://github.com/guilhermebrazioli/quem-faz-ai). Vídeo: [inserir URL].
+Repositório GitHub: [https://github.com/guilhermebrazioli/quem-faz-ai](https://github.com/guilhermebrazioli/quem-faz-ai). Vídeo: [https://youtu.be/U_YzUO2m6UE](https://youtu.be/U_YzUO2m6UE).
 
 ## Execução
 
