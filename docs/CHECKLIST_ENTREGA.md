@@ -13,7 +13,7 @@
 | Sete recusas investigadas | Concluído com ressalva | `avaliacao/investigacao_sete_recusas.md` | Respostas brutas históricas não foram registradas; interpretação depende de revisão |
 | Revisão humana e segunda pessoa | Preparada | `avaliacao/revisao_web.py`; `avaliacao/resultados/cega_v2/segunda_revisao.csv` | Nenhuma avaliação humana atribuída; mapa local necessário para consolidar |
 | Reprodutibilidade | Parcial | `README.md`, `docs/manifesto_experimentos.json`, seis notebooks, testes | Reprodução por avaliador independente |
-| Integração com plataforma | Demonstrativa | `exemplos/consumidor.py`; `avaliacao/resultados/verificacao_api_final.json` | MVP principal indisponível; integração real não testada |
+| Integração com plataforma | Somente leitura com o MVP publicado | `scripts/demo_integracao_mvp.py`; `avaliacao/resultados/integracao_mvp.json`; `exemplos/consumidor.py` | MVP não consome o endpoint nem exibe respostas; saídas da integração sem revisão humana |
 | Publicação GitHub | Preparada | `.gitignore`; comandos no `README.md` | Repositório GitHub, revisão e publicação pelo responsável |
 
 A checagem de IDs é estrutural e não equivale à fundamentação semântica. Os nomes e RMs fornecidos para identificação acadêmica são dados pessoais e ficarão públicos se o relatório for publicado; o grupo deve confirmar essa divulgação antes de enviar ao GitHub. Os endereços eletrônicos não foram adicionados. O mapa da segunda revisão é local e está ignorado pelo Git. Esta lista não atribui nota oficial.

@@ -65,3 +65,9 @@ Recall macro@1 = 0,786 e recall macro@3 = 1,000 nos 14 casos com evidência. B t
 | README e reprodução | 0,5 | `README.md`, `requirements.txt`, `notebooks/` | Concluído |
 
 Limitações: amostra pequena e escrita pela equipe; API sem autenticação; A pode alucinar e não deve ser usada para orientação de segurança. Os nomes e RMs são dados pessoais e sua divulgação pública deve ser confirmada pelo grupo.
+
+## Integração com o MVP
+
+- Script: `scripts/demo_integracao_mvp.py` (somente leitura).
+- Registro: `avaliacao/resultados/integracao_mvp.json`.
+- Integração com o MVP publicado: `scripts/demo_integracao_mvp.py` lê, somente por GET, as categorias e solicitações do MVP Quem Faz publicado na Azure ([repositório do MVP](https://github.com/guilhermebrazioli/quem-faz)) e envia perguntas de demonstração ao assistente local, associando cada uma a uma categoria real do MVP. A execução registrada em `avaliacao/resultados/integracao_mvp.json` leu 5 categorias (Elétrica, Hidráulica, Limpeza, Montagem de móveis e Pintura) e nenhuma solicitação. Na configuração B, a pergunta associada a Pintura foi fundamentada, com `categoria_sugerida` "Reforma", fora da taxonomia do MVP; a associada a Elétrica retornou `informacao_insuficiente`. Essas saídas não passaram por revisão humana e não integram a avaliação dos 60 casos. A integração não grava dados no MVP, o MVP não exibe as respostas e o assistente roda localmente com Ollama.

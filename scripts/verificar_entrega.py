@@ -55,6 +55,6 @@ if args.testes:
 else:manual('Executar pytest -q ou chamar este script com --testes.')
 manual('Conferir suporte semântico, correção, alucinação e adequação das recusas por avaliador independente.')
 manual('Conferir rubrica, licenças, segurança, proteção de dados, nomes e RMs antes da publicação.')
-manual('Comprovar integração com o MVP real; o projeto contém apenas demonstração local.')
+manual('Integração somente leitura com o MVP publicado registrada em avaliacao/resultados/integracao_mvp.json; escrita no MVP e exibição das respostas não implementadas.')
 print('\nResumo:',{s:sum(x[0]==s for x in results) for s in ['PASSOU','FALHOU','REQUER VERIFICAÇÃO MANUAL']})
 sys.exit(1 if any(s=='FALHOU' for s,_ in results) else 0)

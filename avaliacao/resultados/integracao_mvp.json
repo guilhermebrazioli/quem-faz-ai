@@ -1,0 +1,80 @@
+{
+  "gerado_em": "2026-11-18T14:13:18.188865+00:00",
+  "mvp_url": "https://quem-faz.whiteocean-1daba118.eastus.azurecontainerapps.io",
+  "modo": "somente leitura (GET /api/categorias e GET /api/solicitacoes); nada é gravado no MVP",
+  "categorias_mvp": [
+    "Elétrica",
+    "Hidráulica",
+    "Limpeza",
+    "Montagem de móveis",
+    "Pintura"
+  ],
+  "solicitacoes_mvp_total": 0,
+  "resultados": [
+    {
+      "categoria_mvp": "Elétrica",
+      "descricao": "Antes de contratar um serviço elétrico, quais cuidados de segurança devo considerar?",
+      "configuracao": "B",
+      "resposta": {
+        "categoria_sugerida": "Elétrica",
+        "descricao_aprimorada": "Antes de contratar um serviço elétrico, quais cuidados de segurança devo considerar?",
+        "orientacoes": [
+          {
+            "texto": "Não consta na base de conhecimento informação suficiente para responder com segurança.",
+            "fontes": []
+          }
+        ],
+        "perguntas_sugeridas": [],
+        "status": "informacao_insuficiente",
+        "fontes": [],
+        "rastreio": [
+          "consulta_base:PROCON-04=0.1474,PROCON-02=0.0641,MME-01=0.0593",
+          "limiar:0.1500;aceitos:0",
+          "sem_evidencia"
+        ],
+        "observacao": null
+      }
+    },
+    {
+      "categoria_mvp": "Pintura",
+      "descricao": "Antes da reforma, quais itens financeiros e datas devem ser discriminados no orçamento?",
+      "configuracao": "B",
+      "resposta": {
+        "categoria_sugerida": "Reforma",
+        "descricao_aprimorada": "Discriminação de itens financeiros e datas no orçamento antes da reforma inclui mão de obra, materiais, equipamentos, condições de pagamento e datas de início e término.",
+        "orientacoes": [
+          {
+            "texto": "Discriminação de itens financeiros e datas no orçamento antes da reforma inclui mão de obra, materiais, equipamentos, condições de pagamento e datas de início e término.",
+            "fontes": [
+              "CDC-01"
+            ]
+          }
+        ],
+        "perguntas_sugeridas": [
+          {
+            "texto": "Quais itens financeiros e datas devem ser discriminados no orçamento antes da reforma?",
+            "fontes": [
+              "CDC-01"
+            ]
+          }
+        ],
+        "status": "fundamentado",
+        "fontes": [
+          {
+            "id": "CDC-01",
+            "titulo": "Código de Defesa do Consumidor, art. 40",
+            "instituicao": "Secretaria Nacional do Consumidor",
+            "url": "https://www.consumidor.gov.br/pages/conteudo/publico/102"
+          }
+        ],
+        "rastreio": [
+          "consulta_base:CDC-01=0.3267,PROCON-03=0.0528,CDC-04=0.0512",
+          "limiar:0.1500;aceitos:1",
+          "gera_json_llm"
+        ],
+        "observacao": null
+      }
+    }
+  ],
+  "limitacao": "O assistente roda localmente com Ollama; o MVP publicado não exibe as respostas."
+}
