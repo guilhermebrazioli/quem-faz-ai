@@ -6,6 +6,70 @@ A plataforma não garante a qualidade dos serviços, e a decisão de contratar �
 
 Integrantes: Enzo Vazquez Sartorelli (RM94618), Kaue Pastori Teixeira (RM98501), Nicolas Nogueira Boni (RM551965), Guilherme Brazioli (RM98237) e Pedro Oliveira Valotto (RM551445).
 
+## Ficha técnica do MVP — Quem Faz
+
+### 1. Nome do produto
+
+**Quem Faz** — Plataforma de conexão entre contratantes e prestadores de serviços.
+
+### 2. Cidadão e território
+
+Moradores, empresas e profissionais prestadores de serviços da cidade de **São Paulo (SP)**.
+
+### 3. Problema, em uma frase
+
+A dificuldade de encontrar profissionais adequados e confiáveis para a contratação de serviços, enquanto prestadores enfrentam obstáculos para divulgar suas habilidades e conquistar novos clientes.
+
+### 4. Proposta de valor
+
+O Quem Faz propõe uma plataforma que aproxima contratantes e prestadores de serviços por meio da exploração de categorias profissionais e da publicação de solicitações. Os usuários poderão consultar perfis, solicitar propostas e avaliar experiências após a conclusão dos serviços.
+
+No módulo de Generative AI, o Quem Faz AI apoia a contratação segura: responde dúvidas sobre orçamento, direitos do consumidor e riscos elétricos residenciais citando fontes públicas, e recusa quando a base não contém a resposta.
+
+### 5. Arquitetura: componentes
+
+- **API:** FastAPI local, com o endpoint `POST /api/ai/assistente`.
+- **Busca:** TF-IDF com radicalização em português e limiar de 0,15 sobre `base/trechos.json`.
+- **Geração:** Qwen 2.5 1.5B via Ollama, com resposta em JSON validada e IDs das fontes citadas.
+- **Configurações comparadas:** A (LLM sem contexto), B (RAG simples) e C (agente).
+- **Integração:** leitura somente por GET das categorias do MVP publicado.
+
+**Fluxo:** Pergunta → API → Busca na base → LLM local → JSON com fontes ou recusa.
+
+### 6. Fontes de dados
+
+15 trechos parafraseados de 4 fontes públicas: Senacon/CDC, Ministério de Minas e Energia, Procon-SP e IPS-ES (acesso em 17/11/2026). A avaliação usa 20 casos cegos: 14 com resposta na base e 6 "não consta". Nenhum dado pessoal real.
+
+### 7. Modelos de IA utilizados
+
+Qwen 2.5 1.5B executado localmente pelo Ollama, com temperatura 0. Especialização por agente (configuração C), sem LoRA nem fine-tuning dos pesos.
+
+### 8. URL do MVP e repositório
+
+- **MVP público:** https://quem-faz.whiteocean-1daba118.eastus.azurecontainerapps.io/
+- **Repositório:** https://github.com/guilhermebrazioli/quem-faz-ai
+- **Vídeo:** https://youtu.be/U_YzUO2m6UE
+
+### 9. Indicadores de impacto
+
+Recall macro@1 = 0,786 e recall macro@3 = 1,000. Na revisão humana das 60 respostas, as corretas foram 15% (A), 70% (B) e 65% (C), e as respostas com alucinação foram 100% (A), 10% (B) e 0% (C). Nos casos "não consta", B recusou corretamente 5 de 6 e C, 6 de 6. **Esses resultados vêm de uma amostra de teste**, ainda sem medição com usuários reais.
+
+### 10. ODS conectados
+
+**ODS 9 — Indústria, Inovação e Infraestrutura**
+
+O Quem Faz contribui para esse objetivo ao propor uma solução tecnológica que digitaliza processos e facilita a conexão entre profissionais e contratantes. No módulo de Generative AI, uma LLM local fundamentada em fontes públicas demonstra o uso de inteligência artificial de forma segura e explicável.
+
+**ODS 10 — Redução das Desigualdades (Meta 10.2)**
+
+O Quem Faz busca ampliar as oportunidades de trabalho e geração de renda para profissionais autônomos e informais, inclusive aqueles que atuam em bairros periféricos de São Paulo. A plataforma oferece um espaço para que esses profissionais divulguem suas habilidades, encontrem novos clientes e construam sua reputação por meio de avaliações vinculadas aos serviços realizados.
+
+**ODS 11 — Cidades e Comunidades Sustentáveis**
+
+O Quem Faz se conecta a esse objetivo ao propor melhorias no acesso a serviços locais na cidade de São Paulo, facilitando o encontro entre moradores, empresas e profissionais da própria comunidade.
+
+As contribuições aos ODS representam os objetivos e benefícios potenciais da solução, ainda não resultados sociais comprovados em operação real.
+
 Documentos principais: [relatório acadêmico final](docs/RELATORIO_FINAL_GENERATIVE_AI.md), [guia de entrega com as evidências da rubrica](ENTREGA_FINAL.md), [diagrama de arquitetura](docs/arquitetura.md) e [contrato de integração](docs/integracao_mvp.md).
 
 ## Resultados da avaliação final
